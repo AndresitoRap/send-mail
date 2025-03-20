@@ -56,7 +56,7 @@ module.exports = async (req, res) => {
       from: from,
       to: to,
       subject: subject,
-      text: 'Adjunto encontrarás el archivo PDF con tu cotización.',
+      text: 'Adjunto encontrarás el archivo PDF con tu cotización, gracias por comprar en Packvision, te esperamos ver pronto de nuevo!',
       attachments: [
         {
           filename: 'cotizacion.pdf',
